@@ -6,7 +6,7 @@ public class DefaultCountingOutRhymer {
     private final int[] NUMBERS = new int[max_size];
 
     public int total = -1;
-    public int stack_size = -1;
+    final public int stack_size = -1;
 
     public void countIn(int in) {
         if (!isFull())
@@ -14,7 +14,7 @@ public class DefaultCountingOutRhymer {
     }
 
     public boolean callCheck() {
-        return total == -1;
+        return total == stack_size;
     }
 
     public boolean isFull() {
