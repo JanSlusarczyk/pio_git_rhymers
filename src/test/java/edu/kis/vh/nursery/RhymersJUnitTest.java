@@ -2,7 +2,7 @@ package edu.kis.vh.nursery;
 
 import org.junit.Assert;
 import org.junit.Test;
-
+//as of 16:15 03.04.2025 all unit tests pass
 public class RhymersJUnitTest {
 
     public static final int I = 0;
